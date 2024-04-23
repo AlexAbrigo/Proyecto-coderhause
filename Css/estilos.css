@@ -1,0 +1,225 @@
+ /*globales */
+*::after,
+*::before,
+
+*{
+margin: 0;
+padding: auto;
+box-sizing: border-box;
+background-image: url(/imagenes/diseno-color-gris-fondo-abstracto-vector_11639-76.avif);
+}
+
+
+/*body*/
+
+body
+{
+    margin: 0 auto;
+    max-width: auto;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;    
+}
+
+.logo img
+{width:300px;
+max-width:100%;
+margin-left:40em;
+}
+
+
+/*header*/
+
+header
+{display: flex;}
+
+.container-icon
+{display: flex;
+    justify-content: space-between;
+font-size: 1.2em;}
+
+.icon-cart
+{ width: 40px;
+  height: 40px;  
+}
+/*main*/
+
+ 
+.menu
+{display: inline-flex;
+align-items: center;
+justify-content: center;
+padding-top: auto;
+padding-left: auto;
+padding-right: auto;
+font-weight: bold;
+position: sticky;
+top: 0px;
+
+width: 100%;}
+
+.videos
+{display: flex;
+  justify-content: center;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+ul li
+{display: inline-block;
+  margin: 15px;
+ padding: auto;
+}
+
+ a
+ {color: black;
+text-decoration: none;
+width: 100%;
+    background-color: silver;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;}
+
+a:hover
+{color:aqua ;}
+
+/*catalogo*/
+
+.container-items
+  { display: inline-block;
+gap: 3px;
+margin: 8px 10px;
+padding-left: 2.2em;
+padding-top: 4em;
+padding-right: 3em;
+}
+
+.item 
+{border-radius: 10px;
+}
+
+.item:hover
+{ box-shadow: 0 15px 30px rgba(0, 0, 0, 0.20 );}
+
+.item img
+{    
+width: 100%;
+height: 300px;
+object-fit: cover;
+border-radius: 10px 10px 0 0;
+transition: all .5s;
+}
+.item figure
+{overflow: hidden;}
+
+.item:hover img
+{transform: scale(1.2);
+}
+
+.info-produc
+{padding: 10px 20px;
+line-height: 3;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.info-produc p
+{border: #000;
+padding: 1px 3px;
+cursor: pointer;
+font-family: 'Times New Roman', Times, serif;
+font-size: 1.6em;
+font-style: normal;}
+
+.info-produc button
+{border: black;
+background: white;
+background-color: white;
+color: rgb(0, 0, 0);
+padding: 20px 10px;
+cursor: pointer;
+font-family: 'Times New Roman', Times, serif;
+font-size: 1.2em;}
+
+/*Formulario de ingreso*/
+
+.form-register 
+{ width: 400px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+box-shadow: 10px 12px 37px #000; 
+}
+
+.form-register h4 
+
+{ font-size: 22px;
+  margin-bottom: 20px; 
+justify-content:center;
+text-align: center;
+}
+
+.controls 
+
+{ width: 100%;
+  background-color: bisque;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid grey;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px; }
+  
+
+  .form-register p
+
+  { height:40px;
+      text-align: center;
+      font-size: 18px; 
+}
+.form-register a
+{
+color: black;
+text-decoration: none;
+font-size: 14px;
+}
+
+      .form-register a:hover
+ 
+  { color: black;
+  text-decoration: underline; }
+
+  .form-register .botons
+  {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+
+  }
+  
+
+
+  
+/*Quienes somos*/
+
+ h5  .Introduccion
+{
+  display: inline-block;
+  justify-content: space-between;
+  margin: 100px;
+  padding: 100px;
+  font-size: 25px;
+  letter-spacing: 0,5;
+  color: black;
+
+
+}
